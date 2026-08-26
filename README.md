@@ -19,15 +19,16 @@ The dataset was split into training and testing sets to evaluate model performan
 
 | Model                    | Test Accuracy |
 | ------------------------ | ------------: |
-| Logistic Regression      |        81.93% |
-| Decision Tree            |        80.67% |
-| Random Forest            |        93.28% |
-| KNN                      |        66.81% |
-| KNN with Standardization |        82.77% |
+| Logistic Regression      |        82.77% |
+| Decision Tree            |        78.99% |
+| Random Forest            |        94.12% |
+| KNN                      |        64.29% |
+| KNN with Standardization |        83.61% |
+| 5-fold CV Random Forest mean |    90.34% |
 
-Random Forest achieved the highest test accuracy at **93.28%**.
+5-fold cross-validation: Random Forest achieved the highest mean accuracy at 90.34%.
 
-Feature standardization also improved KNN accuracy from **66.81% to 82.77%**, demonstrating the importance of feature scaling for distance-based models.
+Improved KNN test accuracy from 64.3% to 83.6% through feature standardization and achieved 94.1% test accuracy with Random Forest.
 
 ## Data Analysis
 

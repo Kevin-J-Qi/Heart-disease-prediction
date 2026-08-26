@@ -69,6 +69,8 @@ Heart Disease Dataset from Kaggle.
 ## Author
 
 Jiaen Qi
+
 University of California, Irvine
+
 B.S. Applied and Computational Mathematics
 
